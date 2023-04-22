@@ -29,9 +29,10 @@ export const AvatarImg = styled.img`
     border-radius: 50%;
 `; 
 
-export const Name= styled.h2`
+export const Name= styled.p`
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
     color: ${props => props.theme.colors.primaryText};
 
     margin-top: 0;
