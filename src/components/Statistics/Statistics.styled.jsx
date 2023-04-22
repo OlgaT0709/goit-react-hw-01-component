@@ -25,7 +25,7 @@ export const StatList= styled.ul`
     display: flex;
     justify-content: center;
     width: 100%;
-    
+     
     
 `;
 
