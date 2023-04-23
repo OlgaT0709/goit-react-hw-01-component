@@ -4,7 +4,7 @@ export const TransactionTable = styled.table`
     margin-right: auto;
     margin-left: auto;
     margin-top: ${props => props.theme.spacing(4)};
-    border-collapse: collapse;   
+    // border-collapse: collapse;   
 
     width: 340px;
     border: ${props => `1px solid ${props.theme.colors.black}`};
