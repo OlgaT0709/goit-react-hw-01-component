@@ -30,11 +30,11 @@ export const App = () => {
 
       <FriendsList
         friends={friends}
-      />;
+      />
 
       <TransactionsList
         transactions={transactions}
-      />;
+      />
     </Container>
   );
 };
