@@ -28,7 +28,7 @@ export const TransactionsList = ({transactions }) => {
         );
 };
 
-TransactionList.propTypes = {
+TransactionsList.propTypes = {
     transactions: PropTypes.arrayOf(PropTypes.exact({
         id: PropTypes.string.isRequired,
         type: PropTypes.string.isRequired,

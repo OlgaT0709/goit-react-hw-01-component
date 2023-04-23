@@ -17,7 +17,7 @@ export const FriendsList = ({friends }) => {
         );
 };
 
-FriendList.propTypes = {
+FriendsList.propTypes = {
     friends: PropTypes.arrayOf(PropTypes.exact({
         id: PropTypes.number.isRequired,
         name: PropTypes.string.isRequired,
