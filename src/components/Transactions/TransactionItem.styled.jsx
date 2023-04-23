@@ -2,8 +2,12 @@ import styled from '@emotion/styled';
 
 export const TableRow = styled.tr`
     color: ${props => props.theme.colors.secondaryText};
-    background-color: ${({ isEven, theme }) => (
-    isEven ? theme.colors.lightGrey : theme.colors.white )};
+    :nth-child(even){
+        background-color: ${props => props.theme.colors.lightGrey};
+    }
+    :nth-child(odd){
+        background-color: ${props => props.theme.colors.white};
+    } 
 `;
 
 export const TableColomn = styled.th`
