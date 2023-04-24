@@ -5,10 +5,10 @@ import data from '../../data/data.json';
 import friends from '../../data/friends.json';
 import transactions from '../../data/transactions.json';
 
-import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statistics'
-import { FriendsList } from 'components/Friends/FriendList'
-import { TransactionsList } from 'components/Transactions/TransactionList'
+import { Profile } from 'components/Profile';
+import { Statistics } from 'components/Statistics';
+import { FriendsList } from 'components/Friends';
+import { TransactionsList } from 'components/Transactions';
 
 export const App = () => {
   return (
